@@ -3,10 +3,9 @@ import '#styles/globals.css'
 import { DefaultLayout } from "#components/layout";
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <DefaultLayout>
-      <Component {...pageProps} />
-    </DefaultLayout>
+  const getLayout = Component.getLayout || ((page) => <DefaultLayout>{page}</DefaultLayout>)
+  return getLayout(
+    <Component {...pageProps} />
   )
 }
 

@@ -69,6 +69,9 @@ const HomePage = () => {
   )
 }
 
+/**
+ * @param {JSX.Element} page
+ */
 HomePage.getLayout = (page) => {
   return (
     <DefaultLayout>
