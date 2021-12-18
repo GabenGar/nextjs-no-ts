@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "#public/*": ["src/public/*"],
       "#components/*": ["src/components/*/_index.js"],
       "#pages/*": ["src/pages/*"],
       "#styles/*": ["src/styles/*"],
