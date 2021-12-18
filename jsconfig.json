@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#components/*": ["src/components/*/_index.js"],
+      "#pages/*": ["src/pages/*"],
+      "#styles/*": ["src/styles/*"],
+    }
+  }
+}
