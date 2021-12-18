@@ -2,10 +2,21 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "#public/*": ["src/public/*"],
-      "#components/*": ["src/components/*/_index.js"],
-      "#pages/*": ["src/pages/*"],
-      "#styles/*": ["src/styles/*"],
+      "#public/*": [
+        "src/public/*"
+      ],
+      "#components/*": [
+        "src/components/*/_index.js"
+      ],
+      "#pages/*": [
+        "src/pages/*"
+      ],
+      "#styles/*": [
+        "src/styles/*"
+      ],
+      "#utils/*": [
+        "src/utils/*/_index.js"
+      ],
     }
   }
 }
