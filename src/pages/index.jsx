@@ -4,9 +4,6 @@ import { DefaultLayout } from "#components/layout";
 import styles from "./index.module.css";
 
 const HomePage = () => {
-  const abc = "";
-  const abc = 1;
-
   return (
     <div className={styles.container}>
       <Head>

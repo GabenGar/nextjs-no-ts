@@ -2,21 +2,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "#public/*": [
-        "src/public/*"
-      ],
-      "#components/*": [
-        "src/components/*/_index.js"
-      ],
-      "#pages/*": [
-        "src/pages/*"
-      ],
-      "#styles/*": [
-        "src/styles/*"
-      ],
-      "#utils/*": [
-        "src/utils/*/_index.js"
-      ],
+      "#public/*": ["src/public/*"],
+      "#components": ["src/components/_index.js"],
+      "#components/*": ["src/components/*/_index.js"],
+      "#pages/*": ["src/pages/*"],
+      "#styles/*": ["src/styles/*"],
+      "#utils": ["src/utils/_index.js"],
+      "#utils/*": ["src/utils/*/_index.js"]
     }
   }
 }
