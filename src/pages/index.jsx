@@ -1,9 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
 import { DefaultLayout } from "#components/layout";
-import styles from './index.module.css'
+import styles from "./index.module.css";
 
 const HomePage = () => {
+  const abc = "";
+  const abc = 1;
+
   return (
     <div className={styles.container}>
       <Head>
@@ -18,7 +21,7 @@ const HomePage = () => {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
@@ -59,25 +62,21 @@ const HomePage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
 /**
  * @param {JSX.Element} page
  */
 HomePage.getLayout = (page) => {
-  return (
-    <DefaultLayout>
-      {page}
-    </DefaultLayout>
-  )
-}
+  return <DefaultLayout>{page}</DefaultLayout>;
+};
 
 export default HomePage;
