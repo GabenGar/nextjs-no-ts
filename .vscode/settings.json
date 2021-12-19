@@ -1,4 +1,14 @@
 {
+  "json.schemas": [
+    {
+      "fileMatch": ["/schemas/entity.schema.json"],
+      "url": "./schemas/base.json"
+    },
+    {
+      "fileMatch": ["/schemas/entity.json"],
+      "url": "./schemas/entity.schema.json"
+    }
+  ],
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

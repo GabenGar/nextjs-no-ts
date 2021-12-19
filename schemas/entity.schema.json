@@ -1,0 +1,15 @@
+{
+  "title": "Entity",
+  "description": "Example entity.",
+  "type": "object",
+  "required": ["id", "name"],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Unique ID of the entity."
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

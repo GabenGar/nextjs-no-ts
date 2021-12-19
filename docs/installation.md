@@ -9,6 +9,7 @@
 2. Add page layout component as per [related article](https://nextjs.org/docs/basic-features/layouts)
 3. Add custom [`_app`](https://nextjs.org/docs/advanced-features/custom-app) and [`__document`](https://nextjs.org/docs/advanced-features/custom-document) files
 4. Install `ESLint` and `Prettier`:
+
    1. `ESLint` comes preinstalled on `nextjs` 11+
    2. Install `Prettier`:
       ```sh
@@ -24,13 +25,17 @@
       public
       ```
    5. Install `eslint-config-prettier` package:
+
    ```sh
 
    ```
+
    6. Extend ESLint config:
+
    ```sh
      "extends": ["next", "prettier"]
    ```
+
 5. Set up precommit hooks:
 6. Install `husky` and `lint-staged`:
    ```sh
@@ -51,7 +56,6 @@
    npx husky add .husky/pre-commit "npx lint-staged"
    ```
    If it doesn't work, run `npx husky-init` and then paste `npx lint-staged` into `.husky/pre-commit`.
-9.
 
 ## IDE-specific
 
