@@ -1,8 +1,8 @@
 {
   "json.schemas": [
     {
-      "fileMatch": ["/schemas/entity.schema.json"],
-      "url": "./schemas/base.json"
+      "fileMatch": ["/*schema.json"],
+      "url": "./schemas/base.schema.json"
     },
     {
       "fileMatch": ["/schemas/entity.json"],
